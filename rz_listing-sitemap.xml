@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://chatltt.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://chatltt.com/listing/</loc>
@@ -7,38 +7,65 @@
 	<url>
 		<loc>https://chatltt.com/listing/vijay-the-pharmasisct/</loc>
 		<lastmod>2024-06-04T05:38:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/bcvbcvbvc.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/tanya-khanijow/</loc>
 		<lastmod>2024-06-03T00:31:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/dfgdfgdfgfd.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/bald-and-bankrupt/</loc>
 		<lastmod>2024-06-03T00:30:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/Bald_and_bankrupt.webp</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/dr-eric-berg/</loc>
 		<lastmod>2024-05-25T11:28:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/444456484_958783452372030_5495140478395777738_n.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/cherellethinks/</loc>
 		<lastmod>2024-05-25T11:26:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/March-April-in-10-photos.-%F0%9F%A9%B7.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/alle-abroad/</loc>
 		<lastmod>2024-05-25T11:25:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/32721327_1792146047514830_8969152415798394880_n.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/dr-sten-ekberg/</loc>
 		<lastmod>2024-05-21T22:13:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/d1f916525c78be8926e7a1f639c99dcd.webp</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/dr-education-faq/</loc>
 		<lastmod>2024-05-21T06:32:07+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/42203303_10216615963848724_2860067586249326592_n.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/dr-cuterus-answering-questions-about-your-body/</loc>
 		<lastmod>2024-05-21T05:44:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2024/07/DrTanaya4-1024x1024-1.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/maecenas-quis-molestie-nisi-nunc-erat-mauris/</loc>
@@ -119,6 +146,9 @@
 	<url>
 		<loc>https://chatltt.com/listing/mercedes-benz-a-200-cdi/</loc>
 		<lastmod>2019-12-27T19:29:09+00:00</lastmod>
+		<image:image>
+			<image:loc>https://chatltt.com/storage/2019/05/333.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://chatltt.com/listing/quisque-lacinia-volutpat-sapien-at-tristique/</loc>
