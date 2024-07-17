@@ -128,52 +128,13 @@
 <script type="text/javascript" src="https://chatltt.com/lib/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <link rel="shortlink" href="https://chatltt.com/?p=8974">
 
-<script type="text/javascript">
-(function() {
-    // Function to modify links
-    function modifyLinks() {
-        // Select all 'a' elements on the page
-        var links = document.getElementsByTagName('a');
-        
-        // Loop through each link
-        for (var i = 0; i < links.length; i++) {
-            // Remove the target attribute if it exists
-            links[i].removeAttribute('target');
-            
-            // Add click event listener
-            links[i].addEventListener('click', function(event) {
-                // Check if the link is to an external site
-                if (this.hostname !== window.location.hostname) {
-                    // If it's external, you might want to keep it opening in a new tab
-                    // Remove the next line if you want ALL links to open in the same tab
-                    this.target = '_blank';
-                } else {
-                    // For internal links, ensure they open in the same tab
-                    this.target = '_self';
-                }
-            });
-        }
-    }
+<script type="text/javascript" src="https://chatltt.com/storage/custom-css-js/10386.js?v=456"></script>
 
-    // Run the function when the DOM is fully loaded
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", modifyLinks);
-    } else {
-        modifyLinks();
-    }
+<script type="text/javascript" src="https://chatltt.com/storage/custom-css-js/10344.js?v=5620"></script>
 
-    // Also run the function when the page is fully loaded (including images and other resources)
-    window.addEventListener('load', modifyLinks);
+<link rel="stylesheet" id="10295-css" href="https://chatltt.com/storage/custom-css-js/10295.css?v=4229" type="text/css" media="all">
 
-    // If you're using AJAX to load content dynamically, you might want to call modifyLinks() after new content is loaded
-})();</script>
-
-
-<script type="text/javascript" src="https://chatltt.com/storage/custom-css-js/10344.js?v=8486"></script>
-
-<link rel="stylesheet" id="10295-css" href="https://chatltt.com/storage/custom-css-js/10295.css?v=3853" type="text/css" media="all">
-
-<link rel="stylesheet" id="10286-css" href="https://chatltt.com/storage/custom-css-js/10286.css?v=1240" type="text/css" media="all">
+<link rel="stylesheet" id="10286-css" href="https://chatltt.com/storage/custom-css-js/10286.css?v=3073" type="text/css" media="all">
 
 			<style>
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
@@ -507,15 +468,6 @@
                             <a href="https://chatltt.com/faqs" data-name="faq">
                                 <i class="far fa-eye"></i>
                                                                 <span>faq</span>
-                            </a>
-                        </li>
-
-                    
-                        
-                        <li class="">
-                            <a href="https://app.chatltt.com/submission" data-name="Submission">
-                                <i class="far fa-copyright"></i>
-                                                                <span>Submission</span>
                             </a>
                         </li>
 
