@@ -125,11 +125,52 @@
 <script type="text/javascript" src="https://chatltt.com/lib/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <link rel="shortlink" href="https://chatltt.com/?p=9302">
 
-<script type="text/javascript" src="https://chatltt.com/storage/custom-css-js/10344.js?v=8147"></script>
+<script type="text/javascript">
+(function() {
+    // Function to modify links
+    function modifyLinks() {
+        // Select all 'a' elements on the page
+        var links = document.getElementsByTagName('a');
+        
+        // Loop through each link
+        for (var i = 0; i < links.length; i++) {
+            // Remove the target attribute if it exists
+            links[i].removeAttribute('target');
+            
+            // Add click event listener
+            links[i].addEventListener('click', function(event) {
+                // Check if the link is to an external site
+                if (this.hostname !== window.location.hostname) {
+                    // If it's external, you might want to keep it opening in a new tab
+                    // Remove the next line if you want ALL links to open in the same tab
+                    this.target = '_blank';
+                } else {
+                    // For internal links, ensure they open in the same tab
+                    this.target = '_self';
+                }
+            });
+        }
+    }
 
-<link rel="stylesheet" id="10295-css" href="https://chatltt.com/storage/custom-css-js/10295.css?v=8243" type="text/css" media="all">
+    // Run the function when the DOM is fully loaded
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", modifyLinks);
+    } else {
+        modifyLinks();
+    }
 
-<link rel="stylesheet" id="10286-css" href="https://chatltt.com/storage/custom-css-js/10286.css?v=484" type="text/css" media="all">
+    // Also run the function when the page is fully loaded (including images and other resources)
+    window.addEventListener('load', modifyLinks);
+
+    // If you're using AJAX to load content dynamically, you might want to call modifyLinks() after new content is loaded
+})();</script>
+
+
+<script type="text/javascript" src="https://chatltt.com/storage/custom-css-js/10344.js?v=8486"></script>
+
+<link rel="stylesheet" id="10295-css" href="https://chatltt.com/storage/custom-css-js/10295.css?v=3853" type="text/css" media="all">
+
+<link rel="stylesheet" id="10286-css" href="https://chatltt.com/storage/custom-css-js/10286.css?v=1240" type="text/css" media="all">
 <script type="application/ld+json">{"id":9302,"post":{"ID":9302,"post_author":"1","post_date":"2024-05-25 11:26:48","post_date_gmt":"2024-05-25 11:26:48","post_content":"Welcome to Cherellethinks, where we explore the journey from fear to freedom. I'm Cherelle, a qualified therapist and counselor with a background in overcoming health anxiety. Through my own personal experience and professional training, I've dedicated myself to helping others break free from the grips of health anxiety and reclaim their lives.\n\nOn this channel, you'll find a safe space to explore the complexities of health anxiety and discover practical strategies for managing and overcoming it. From insightful discussions and informative videos to guided meditations and mindfulness practices, my goal is to provide you with the tools and support you need to thrive.\n\nTogether, we'll delve into the underlying causes of health anxiety, challenge unhelpful thoughts and beliefs, and cultivate a mindset of resilience and empowerment. Whether you're struggling with hypochondria, panic attacks, or obsessive thoughts about your health, know that you're not alone.\n\nThank you for being here and taking the courageous step towards healing. Remember, there is hope, and brighter days lie ahead. Let's embark on this journey together, one mindful step at a time.","post_title":"Cherellethinks","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"cherellethinks","to_ping":"","pinged":"","post_modified":"2024-05-25 11:26:48","post_modified_gmt":"2024-05-25 11:26:48","post_content_filtered":"","post_parent":0,"guid":"https:\/\/chatltt.com\/?post_type=rz_listing&amp;p=9302","menu_order":0,"post_type":"rz_listing","post_mime_type":"","comment_count":"0","filter":"raw"},"type":{"id":"9478","pricing":{"id":"9478"},"post":{"ID":9478,"post_author":"1","post_date":"2024-05-26 04:41:36","post_date_gmt":"2024-05-26 04:41:36","post_content":"By engaging with this AI, you acknowledge and accept that while it strives to provide accurate and helpful responses, it is an artificial intelligence and therefore may produce mistakes, inaccuracies, or misguided sentences. The website owner and the author of LTT are not liable for any consequences resulting from the use of this AI. Subscribing to the AI signifies that you have read and understood this disclaimer and agree to behave responsibly during interactions.","post_title":"Health","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"food-copy","to_ping":"","pinged":"","post_modified":"2024-05-26 04:41:36","post_modified_gmt":"2024-05-26 04:41:36","post_content_filtered":"","post_parent":0,"guid":"https:\/\/chatltt.com\/listing-type\/food-copy\/","menu_order":0,"post_type":"rz_listing_type","post_mime_type":"","comment_count":"0","filter":"raw"}},"booking":{"id":9302},"reviews":{"listing_id":9302,"average":"","count":"0","type_id":"9478"},"class":[],"attrs":[]}</script>
 			<style>
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
@@ -519,7 +560,7 @@
                                 <div class="rz-report-submit">
                             <p>This is private and won't be shared with the owner.</p>
                             <div class="rz-form">
-                                <input type="hidden" id="routiz_report" name="routiz_report" value="a1b5fab21b"><input type="hidden" name="_wp_http_referer" value="/listing/cherellethinks/">                                <div class="rz-grid">
+                                <input type="hidden" id="routiz_report" name="routiz_report" value="a448a03778"><input type="hidden" name="_wp_http_referer" value="/listing/cherellethinks/">                                <div class="rz-grid">
                                                 <div class="rz-form-group rz-field rz-col-12" data-type="radio" data-storage="field" data-disabled="no" data-id="report_reason"><div class="rz-radio-fieldset">
   <label class="rz-radio">
  <input type="radio" name="rz_report_reason" value="incorrect">
@@ -1300,7 +1341,7 @@
 			<script type="text/javascript" src="https://chatltt.com/core/modules/e72b333146/assets/dist/lib/gsap/gsap.min.js" id="gsap-js"></script>
 <script type="text/javascript" id="rz-main-js-extra">
 /* <![CDATA[ */
-var rz_vars = {"post_id":"9302","debug":"","is_admin":"","admin_ajax":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","nonce":"12ef073dd7","site_url":"https:\/\/chatltt.com\/","uri_assets":"https:\/\/chatltt.com\/core\/modules\/e72b333146\/","date_format":"F j, Y","sdk":{"map_provider":"google","facebook":{"app_id":false},"google":{"client_id":false}},"localize":{"select":"Select","listing_views":"Listing views"},"pages":{"explore":"https:\/\/chatltt.com\/?page_id=2711","submission":"https:\/\/chatltt.com\/?page_id=67"},"map":{"style":"custom","geolocation_restrictions":[],"style_custom":[{"featureType":"all","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"simplified"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.school","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.sports_complex","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.highway.controlled_access","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]}],"lat":"","lng":""},"explore":{"is_type":null},"chart":{"colors":{"main":"#FF5757"}}};
+var rz_vars = {"post_id":"9302","debug":"","is_admin":"","admin_ajax":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","nonce":"3c148df77a","site_url":"https:\/\/chatltt.com\/","uri_assets":"https:\/\/chatltt.com\/core\/modules\/e72b333146\/","date_format":"F j, Y","sdk":{"map_provider":"google","facebook":{"app_id":false},"google":{"client_id":false}},"localize":{"select":"Select","listing_views":"Listing views"},"pages":{"explore":"https:\/\/chatltt.com\/?page_id=2711","submission":"https:\/\/chatltt.com\/?page_id=67"},"map":{"style":"custom","geolocation_restrictions":[],"style_custom":[{"featureType":"all","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"simplified"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.school","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.sports_complex","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.highway.controlled_access","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]}],"lat":"","lng":""},"explore":{"is_type":null},"chart":{"colors":{"main":"#FF5757"}}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://chatltt.com/core/modules/e72b333146/assets/dist/js/main.js" id="rz-main-js"></script>
@@ -1318,7 +1359,7 @@ var superpwa_ptr_obj = {"instrPullToRefresh":"Pull down to refresh","instrReleas
 <script type="text/javascript" src="https://chatltt.com/core/modules/9174797eaf/admin/js/superpwa-ptr-lib.min.js" id="superpwa_ptrfp_lib_script-js"></script>
 <script type="text/javascript" id="brk-main-js-extra">
 /* <![CDATA[ */
-var brikk_vars = {"admin_ajax":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","nonce":"12ef073dd7","site_url":"https:\/\/chatltt.com\/","uri_assets":"https:\/\/chatltt.com\/core\/views\/6216f0f403\/","strings":[]};
+var brikk_vars = {"admin_ajax":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","nonce":"3c148df77a","site_url":"https:\/\/chatltt.com\/","uri_assets":"https:\/\/chatltt.com\/core\/views\/6216f0f403\/","strings":[]};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://chatltt.com/core/views/6216f0f403/assets/dist/js/main.js" id="brk-main-js"></script>
@@ -1333,7 +1374,7 @@ var brikk_vars = {"admin_ajax":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php"
 <script type="text/javascript" src="https://chatltt.com/core/modules/e72b333146/assets/dist/js/listing.js" id="rz-listing-js"></script>
 <script type="text/javascript" id="pn-script-app-frontend-js-extra">
 /* <![CDATA[ */
-var pnScriptSetting = {"nonce":"ac64eb14e5","pn_config":{"apiKey":"AIzaSyDhRbFy9m-NXZVkozYJwKdDYJuwsL6W_bw","authDomain":"pushnotificationsio.firebaseapp.com","databaseURL":"https:\/\/pushnotificationsio.firebaseio.com","projectId":"pushnotificationsio","storageBucket":"pushnotificationsio.appspot.com","messagingSenderId":"788493704860","appId":"1:788493704860:web:ba71fd692e7cc9651f5759","measurementId":"G-NXS0Z75BCH"},"swsource":"https:\/\/chatltt.com\/?push_notification_sw=1","scope":"https:\/\/chatltt.com\/","ajax_url":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","cookie_scope":"\/","notification_popup_show_again":"30","popup_show_afternseconds":"3","popup_show_afternpageview":"1","pn_token_exists":"1"};
+var pnScriptSetting = {"nonce":"8efd3fcd8e","pn_config":{"apiKey":"AIzaSyDhRbFy9m-NXZVkozYJwKdDYJuwsL6W_bw","authDomain":"pushnotificationsio.firebaseapp.com","databaseURL":"https:\/\/pushnotificationsio.firebaseio.com","projectId":"pushnotificationsio","storageBucket":"pushnotificationsio.appspot.com","messagingSenderId":"788493704860","appId":"1:788493704860:web:ba71fd692e7cc9651f5759","measurementId":"G-NXS0Z75BCH"},"swsource":"https:\/\/chatltt.com\/?push_notification_sw=1","scope":"https:\/\/chatltt.com\/","ajax_url":"https:\/\/chatltt.com\/wp-admin\/admin-ajax.php","cookie_scope":"\/","notification_popup_show_again":"30","popup_show_afternseconds":"3","popup_show_afternpageview":"1","pn_token_exists":"1"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://chatltt.com/core/modules/bd0f127f7c/assets/public/application.min.js" id="pn-script-app-frontend-js"></script>
