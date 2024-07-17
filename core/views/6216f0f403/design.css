@@ -2,7 +2,7 @@
 
 	Theme Name: Brikk
 	Description: Directory & Listing WordPress Theme
-	Version: 2.1.2
+	Version: 2.2.0
 	License: GNU General Public License v2 or later
 	License URI: LICENSE
 	Author: Utillz
@@ -624,4 +624,17 @@ padding: 8px 17px;
 }
 .rz-message.rz-message-me .rz--inner .rz--content .rz--text p {
     word-break: break-all;
+}
+
+
+/* Rating Issue Resolved 31-05-2024 */
+.rz-single-heading-rating .rz--rating {
+    flex-direction: column;
+}
+.rz-single-heading-rating .rz--rating .score-description {
+    font-size: 11px;
+}
+
+ul.the_champ_login_ul li {
+  padding-bottom: 8px !important;
 }
