@@ -16,7 +16,7 @@ Saved: Jul 17 2024 | 00:25:20 */
             
             // Modify URLs containing '/listing'
             if (link.href.includes('/listing')) {
-                link.href = link.href.replace('https://chatltt.com', 'https://app.chatltt.com');
+                link.href = link.href.replace('', 'https://app.chatltt.com');
             }
             
             // Ensure all links open in the same tab

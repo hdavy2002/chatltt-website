@@ -7,12 +7,12 @@ Saved: Jul 16 2024 | 09:12:03 */
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Static Site</title>
-    <link rel="manifest" href="https://chatltt.com/superpwa-manifest.json">
+    <link rel="manifest" href="/superpwa-manifest.json">
     <script>
         // Register the service worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('https://chatltt.com/superpwa-sw.js')
+                navigator.serviceWorker.register('/superpwa-sw.js')
                     .then(registration => {
                         console.log('Service Worker registered with scope:', registration.scope);
                     })
