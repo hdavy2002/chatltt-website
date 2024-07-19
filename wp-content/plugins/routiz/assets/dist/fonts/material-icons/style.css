@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'material-icons';
   src:
-    url('/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.ttf?x4ej7j') format('truetype'),
-    url('/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.woff?x4ej7j') format('woff'),
-    url('/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.svg?x4ej7j#material-icons') format('svg');
+    url('https://chatltt.com/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.ttf?x4ej7j') format('truetype'),
+    url('https://chatltt.com/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.woff?x4ej7j') format('woff'),
+    url('https://chatltt.com/wp-content/plugins/routiz/assets/dist/fonts/material-icons/material-icons.svg?x4ej7j#material-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     links.forEach(function(link, index) {
         console.log('Processing link ' + index + ': ' + link.href);
-        if (link.href.startsWith('/listing')) {
-            var newHref = link.href.replace('/listing', 'https://app.chatltt.com/listing');
+        if (link.href.startsWith('https://chatltt.com/listing')) {
+            var newHref = link.href.replace('https://chatltt.com/listing', 'https://app.chatltt.com/listing');
             console.log('New href: ' + newHref);
             link.href = newHref;
         } else {
-            console.log('Link does not start with /listing, skipping');
+            console.log('Link does not start with https://chatltt.com/listing, skipping');
         }
     });
     
