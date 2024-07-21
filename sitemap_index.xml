@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://chatltt.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://static.chatltt.com/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://chatltt.com/post-sitemap.xml</loc>
-		<lastmod>2024-07-15T23:43:23+00:00</lastmod>
+		<loc>https://static.chatltt.com/post-sitemap.xml</loc>
+		<lastmod>2024-07-21T07:55:44+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://chatltt.com/page-sitemap.xml</loc>
-		<lastmod>2024-07-18T02:34:45+00:00</lastmod>
+		<loc>https://static.chatltt.com/page-sitemap.xml</loc>
+		<lastmod>2024-07-21T07:56:39+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://chatltt.com/rz_listing-sitemap.xml</loc>
+		<loc>https://static.chatltt.com/rz_listing-sitemap.xml</loc>
 		<lastmod>2024-07-19T15:39:27+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://chatltt.com/category-sitemap.xml</loc>
-		<lastmod>2024-07-15T23:43:23+00:00</lastmod>
+		<loc>https://static.chatltt.com/category-sitemap.xml</loc>
+		<lastmod>2024-07-21T07:55:44+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
